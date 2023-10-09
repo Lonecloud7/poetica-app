@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+#l {
+  font-size: 3rem !important;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.sidebar {
+  width: 24rem;
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+}
